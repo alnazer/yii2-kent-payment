@@ -1,15 +1,14 @@
 {
     "name": "kent-payment/yii2-kent-payment",
     "description": "this is Knet payment type via yii 2.0",
+    "version": "1.0.0",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","knet","payment","kuwait"],
+    "keywords": ["yii2", "extension", "knet", "payment", "kuwait"],
     "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "hassan ali",
-            "email": "hassanaliksa@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "hassan ali",
+        "email": "hassanaliksa@gmail.com"
+    }],
     "require": {
         "yiisoft/yii2": "*"
     },
