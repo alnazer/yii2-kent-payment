@@ -1,5 +1,5 @@
 {
-    "name": "yii2-kent-payment/yii2-kent-payment",
+    "name": "kent-payment/yii2-kent-payment",
     "description": "this is Knet payment type via yii 2.0",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","knet","payment","kuwait"],
