@@ -123,11 +123,12 @@ in SiteController.php or other controller you choose you must add to actions
 
 if Payment operation success return json code 
 ```
-{"status":"success","payment_id":"231852252272650","url":"https:\/\/www.knetpay.com.kw:443\/CGW\/hppaction?formAction=com.aciworldwide.commerce.gateway.payment.action.HostedPaymentPageAction&?PaymentID=xxxxxxxxx650"}
+{"status":"success","payment_id":"xxxxxxxxx650","url":"https:\/\/www.knetpay.com.kw:443\/CGW\/hppaction?formAction=com.aciworldwide.commerce.gateway.payment.action.HostedPaymentPageAction&?PaymentID=xxxxxxxxx650"}
 ```
 else if Payment operation fail return json code 
 ```
 {"status":"error","payment_id":"","url":"","msg":"RROR - CGW000186-Tran Amount Invalid"}
+---------------------------
 msg is knet responce error
 ```
 
