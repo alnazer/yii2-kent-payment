@@ -78,7 +78,7 @@ in SiteController.php or other controller you choose you must add to actions
         $udf4 = $_POST['UDF4'];  // Reads the value of the UDF1 passed by GET request by the user.
         $udf5 = $_POST['UDF5'];  // Reads the value of the UDF1 passed by GET request by the user.
         
-        echo "REDIRECT= Url::to(['site/knetresponce',$_POST],'https');
+        echo "REDIRECT= Url::to(['site/knetresult',$_POST],'https');
     }
      /**
      *knet result Page .
