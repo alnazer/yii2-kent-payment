@@ -12,14 +12,4 @@
     "require": {
         "yiisoft/yii2": "*"
     },
-    "autoload": {
-        "psr-4": {
-            "yii2\\kent\\payment\\": ""
-        }
-    }
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    }
 }
