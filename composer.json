@@ -11,5 +11,5 @@
     }],
     "require": {
         "yiisoft/yii2": "*"
-    },
+    }
 }
