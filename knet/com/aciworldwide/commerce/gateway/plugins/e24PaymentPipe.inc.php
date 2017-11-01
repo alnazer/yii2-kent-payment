@@ -1,5 +1,5 @@
 <?php
-
+namespace app\knet;
 /*
  * e24PaymentPipe
  *
