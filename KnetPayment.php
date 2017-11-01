@@ -55,7 +55,7 @@ class KnetPayment {
                 $result['url'] = $payURL."?PaymentID=".$payID;
             }
         }
-        echo json_encode($result);
+        return json_encode($result);
     }
 }
 ?>
