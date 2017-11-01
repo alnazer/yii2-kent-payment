@@ -108,10 +108,10 @@ in SiteController.php or other controller you choose you must add to actions
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['knetresponce', 'kneterror','knetresult'],
+                //'only' => ['knetresponce'],
                 'rules' => [
                     [
-                        'actions' => ['knetresponce','kneterror','knetresult'],
+                        'actions' => ['knetresponce'],
                         'allow' => true,
                         'roles' => ['?'],
                     ],
