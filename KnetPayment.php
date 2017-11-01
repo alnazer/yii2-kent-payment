@@ -1,6 +1,7 @@
 <?php
 namespace frontend\components;
 use yii;
+use app\kent\e24PaymentPipe;
 require_once(__DIR__ . '/knet/com/aciworldwide/commerce/gateway/plugins/e24PaymentPipe.inc.php');
  
 class KnetPayment {
@@ -18,7 +19,7 @@ class KnetPayment {
     public $alias = "";
     public function run()
     {
-        $Pipe = new \e24PaymentPipe();
+        $Pipe = new e24PaymentPipe();
         $Pipe->setAction($this->action);
         $Pipe->setCurrency($this->currency);
         $Pipe->setLanguage($this->lang); //change it to "ARA" for arabic language
