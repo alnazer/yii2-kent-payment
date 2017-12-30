@@ -71,7 +71,7 @@ class e24PaymentPipe {
     var $debugMsg;
     var $arr = array();
 
-    function e24PaymentPipe() {
+    function __construct() {
         $this->webAddress = "";
         $this->port = "";
         $this->id = "";
