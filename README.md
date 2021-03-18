@@ -6,7 +6,7 @@ Installation
 ------------
 
 unzip all files and insert int to Path frontend/components/
-if folder components not found you can create
+create folder components under folder frontend if is not existe
 
 
 Usage
