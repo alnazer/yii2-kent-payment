@@ -5,7 +5,10 @@ this is Knet payment type via yii 2.0
 Installation
 ------------
 
-unzip all files and insert int to Path frontend/components/
+unzip all files and insert int to Path
+``` 
+frontend/components/
+```
 create folder components under folder frontend if is not existe
 
 
